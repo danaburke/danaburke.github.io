@@ -51,14 +51,22 @@ header a:active {
     text-decoration: underline;
 }
 
+header img {
+    border: 0px solid #ffffff;
+    margin: 0 5% 0 5%;
+    padding: 10px; /* TRouBLe */
+    width: 90%;
+}
+
 body {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 p {
     font-family: helvetica, arial, sans-serif;
-    line-height: 24px;
+    line-height: 22px;
     margin-bottom:16px;
+    margin-right:80px;
 }
 
 article {
@@ -70,15 +78,15 @@ article h1 {
     font-size: 50px;
 }
 
-img {
+article img {
     border: 0px solid #ffffff;
     margin: 0 5% 0 5%;
-    padding: 10px; /* TRouBLe */
-    width: 90%;
+    width: 28%;
+    
 }
 
 footer {
     font-size: 10px;
     color: #aaaaaa;
-    padding: 0 10px 0 10px;
+    padding: 20px 10px 0 10px;
 }
