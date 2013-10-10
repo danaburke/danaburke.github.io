@@ -4,22 +4,11 @@
     padding: 0;
 }
 
-h1 {
-    font-size: 30px;
-    color:#4D067D;
-    padding-bottom: 5px;
-}
-
-h2 {
-    font-size: 20px;
-    color:#780649;
-    padding-bottom: 20px;
-}
 
 header {
-    background-color: #000000;
+    background-color: #45304b;
     color: #ffffff;
-    height: 135px;
+    height: 110px;
 }
 
 header h1 {
@@ -27,24 +16,30 @@ header h1 {
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 800;
-    padding: 10px;
+    padding: 10px, 10px, 0px, 10px;
 }
 
 header nav {
     float: left;
     font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
     text-transform:uppercase;
-    margin-top: 88px;
+    background-color: #8d7693;
+    color: #ffffff;
+    height: 30px;
+    width: 100%;
+    padding: 10px 10px 27px 68px;
 }
 
 header a {
-    color: #aaaaaa;
-    margin-right: 20px;
+    color: #ffffff;
+    margin-right: 25px;
     text-decoration: none;
 }
 
 header a:hover {
-    color: #ffffff;
+    height: 30px;
+    color: #FFF0F5;
 }
 
 header a:active {
@@ -53,9 +48,9 @@ header a:active {
 
 header img {
     border: 0px solid #ffffff;
-    margin: 0 5% 0 5%;
-    padding: 10px; /* TRouBLe */
-    width: 90%;
+    margin: 7px 5% 0px 5%;
+    padding: 0px 0px 0px 38px; /* TRouBLe */
+    width: 80%;
 }
 
 body {
@@ -65,7 +60,7 @@ body {
 p {
     font-family: helvetica, arial, sans-serif;
     line-height: 22px;
-    margin-bottom:16px;
+    margin-bottom: 16px;
     margin-right:80px;
 }
 
@@ -75,18 +70,26 @@ article {
 }
 
 article h1 {
-    font-size: 50px;
+     font-size: 24px;
+    color:#4D067D;
+    padding-top:15px;
+    padding-bottom: 20px;
+    text-align:center;
 }
 
 article img {
     border: 0px solid #ffffff;
     margin: 0 5% 0 5%;
-    width: 28%;
+    padding: 15px;
+    float:left;
     
 }
 
 footer {
+    font-family: helvetica, arial, sans-serif;
     font-size: 10px;
-    color: #aaaaaa;
-    padding: 20px 10px 0 10px;
+    background-color: #8d7693;
+    color: #dddddd;
+    width: 100%;
+    margin-bottom: -16px;
 }
