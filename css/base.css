@@ -16,7 +16,6 @@ header h1 {
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 800;
-    padding: 10px, 10px, 0px, 10px;
 }
 
 header nav {
@@ -28,7 +27,7 @@ header nav {
     color: #ffffff;
     height: 30px;
     width: 100%;
-    padding: 10px 10px 27px 68px;
+    padding: 10px 10px 27px 150px;
 }
 
 header a {
@@ -48,9 +47,9 @@ header a:active {
 
 header img {
     border: 0px solid #ffffff;
-    margin: 7px 5% 0px 5%;
-    padding: 0px 0px 0px 38px; /* TRouBLe */
-    width: 80%;
+    margin: 7px 0 0 0;
+    padding: 0px 0px 0px 140px; /* TRouBLe */
+    width: 85%;
 }
 
 body {
