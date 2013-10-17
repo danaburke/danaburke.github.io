@@ -8,14 +8,13 @@
 header {
     background-color: #45304b;
     color: #ffffff;
-    height: 110px;
+    height: 100px;
 }
 
 header h1 {
     float: left;
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
-    font-weight: 800;
 }
 
 header nav {
@@ -47,12 +46,13 @@ header a:active {
 
 header img {
     border: 0px solid #ffffff;
-    margin: 7px 0 0 0;
-    padding: 0px 0px 0px 140px; /* TRouBLe */
-    width: 85%;
+    margin: 14px 0 11px 0;
+    padding: 0px 0px 0px 30%; /* TRouBLe */
+    width: 80%;
 }
 
 body {
+    clear: both;
     font-size: 12px;
 }
 
@@ -80,7 +80,7 @@ article img {
     border: 0px solid #ffffff;
     margin: 0 5% 0 5%;
     padding: 15px;
-    float:left;
+    float: left;
     
 }
 
