@@ -76,7 +76,6 @@ article img {
 }
 
 footer {
-    text-align: right;
     font-family: helvetica, arial, sans-serif;
     font-size: 10px;
     background-color: #8d7693;
@@ -84,5 +83,4 @@ footer {
     width: 100%;
     margin-bottom: -16px;
     padding-left: 8%;
-    padding-right: 8%;
 }
