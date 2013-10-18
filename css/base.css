@@ -13,11 +13,10 @@ header {
 
 header h1 {
     margin: 0 0 10px 0;
-    padding: 12px 0px 0px 8%; /* TRouBLe */
+    padding: 12px 8% 0px 8%; /* TRouBLe */
 }
 
 header nav {
-    float: left;
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     text-transform:uppercase;
@@ -26,7 +25,7 @@ header nav {
     height: 30px;
     width: 100%;
     margin: 0 0 0 0;
-    padding: 6.5px 0 0 8%;
+    padding: 6.5px 8% 0 8%;
 }
 
 header a {
@@ -76,10 +75,10 @@ article img {
 
 footer {
     clear: both;
+    margin-bottom: -16px;
     font-family: helvetica, arial, sans-serif;
     font-size: 10px;
     background-color: #8d7693;
     color: #dddddd;
     width: 100%;
-    margin-bottom: -16px;
 }
