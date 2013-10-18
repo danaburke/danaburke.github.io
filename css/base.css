@@ -23,9 +23,8 @@ header nav {
     background-color: #8d7693;
     color: #ffffff;
     height: 30px;
-    width: 100%;
     margin: 0 0 0 0;
-    padding: 6.5px 8% 0 8%;
+    padding: 7px 0 0 8%;
 }
 
 header a {
@@ -80,5 +79,4 @@ footer {
     font-size: 10px;
     background-color: #8d7693;
     color: #dddddd;
-    width: 100%;
 }
