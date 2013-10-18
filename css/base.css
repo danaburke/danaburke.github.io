@@ -17,14 +17,32 @@ header h1 {
     padding: 12px 8% 0px 8%; /* TRouBLe */
 }
 
+#social {
+    float: right;
+    margin-right: 8%;
+}
+
+#social p{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    padding: 15px 0 0 0px;
+    margin: 35px 10px -20px -60px;
+}
+
+#social img{
+    width: 25px;
+    margin: -10px 0 0 0px;
+}
+
 header nav {
+    clear: both;
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     text-transform:uppercase;
     background-color: #8d7693;
     color: #ffffff;
     height: 30px;
-    padding: 7px 0 10px 8%;
+    padding: 7px 0 0 8%;
 }
 
 header a {
