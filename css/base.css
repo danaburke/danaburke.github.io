@@ -9,6 +9,7 @@ header {
     background-color: #45304b;
     color: #ffffff;
     height: 105px;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -23,7 +24,7 @@ header nav {
     background-color: #8d7693;
     color: #ffffff;
     height: 30px;
-    padding: 7px 0 0 8%;
+    padding: 7px 0 10px 8%;
 }
 
 header a {
@@ -77,4 +78,5 @@ footer {
     font-size: 10px;
     background-color: #8d7693;
     color: #dddddd;
+    padding-left: 1%;
 }
