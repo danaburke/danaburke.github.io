@@ -36,7 +36,6 @@ header a {
 }
 
 header a:hover {
-    height: 30px;
     color: #FFF0F5;
 }
 
@@ -76,11 +75,11 @@ article img {
 }
 
 footer {
+    clear: both;
     font-family: helvetica, arial, sans-serif;
     font-size: 10px;
     background-color: #8d7693;
     color: #dddddd;
     width: 100%;
     margin-bottom: -16px;
-    padding-left: 8%;
 }
