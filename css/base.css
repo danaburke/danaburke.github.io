@@ -124,13 +124,13 @@ border-color: #000000;
 }
 
 #photography img{
-    width: 1050px;
-    padding: 0 200px 40px 200px;
+    width: 64%;
+    margin: 0 18% 40px 18%;
 }
 
 #design img {
-    width: 1050px;
-    padding: 0 300px 40px 300px;
+    width: 40%;
+    margin: 0 30% 40px 30%;
 }
 
 footer {
