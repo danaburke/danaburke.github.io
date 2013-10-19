@@ -77,15 +77,30 @@ article {
 article h1 {
      font-size: 24px;
     color:#4D067D;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 22px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+article h2 {
+     font-size: 18px;
+    color:#707070;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 22px;
     padding-bottom: 20px;
     text-align: center;
 }
 
 article img {
     border: 0px solid #ffffff;
-    padding-right: 4%;
-    padding-bottom: 2%;
+    padding-right: 0px;
     float: left;
+}
+
+#about img{
+padding-right: 40px;
+padding-bottom: 2%;
 }
 
 #contact img{
@@ -96,6 +111,26 @@ article img {
 
 #contact {
 padding-top: 20px;
+}
+
+#clips img{
+width: 25%;
+margin-bottom: 30px;
+margin-right: 40px;
+    margin-left: 30px;
+    border: 2px;
+border-style:solid;
+border-color: #000000; 
+}
+
+#photography img{
+    width: 100%;
+    padding: 0 20% 40px 20%;
+}
+
+#design img {
+       width: 100%;
+    padding: 0 30% 40px 30%;
 }
 
 footer {
