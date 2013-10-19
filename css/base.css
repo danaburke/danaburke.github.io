@@ -42,7 +42,10 @@ header nav {
     background-color: #8d7693;
     color: #ffffff;
     height: 30px;
-    padding: 7px 0 0 8%;
+    padding-top: 7px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 8%;
 }
 
 header a {
@@ -125,12 +128,18 @@ border-color: #000000;
 
 #photography img{
     width: 64%;
-    margin: 0 18% 40px 18%;
+    margin-top: 0;
+    margin-right: 18%;
+    margin-bottom: 40px;
+    margin-left: 18%;
 }
 
 #design img {
     width: 40%;
-    margin: 0 30% 40px 30%;
+     margin-top: 0;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    margin-left: 30%;
 }
 
 footer {
