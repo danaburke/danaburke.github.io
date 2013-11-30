@@ -13,10 +13,17 @@ header {
 }
 
 header h1 {
-    margin: 0 0 10px 0;
-    padding: 12px 8% 0px 8%; /* TRouBLe */
+        line-height: 0px;
+      margin-bottom: 0px;
+    text-indent: -10000px;
 }
 
+#logo {
+    height: 85px;
+    margin: 0 0 10px 0;
+    padding: 15px 8% 0px 8%; /* TRouBLe */
+}
+ 
 #social {
     float: right;
     margin-right: 8%;
@@ -56,6 +63,7 @@ header a {
 
 header a:hover {
     color: #FFF0F5;
+    text-decoration: underline;
 }
 
 header a:active {
@@ -87,12 +95,12 @@ article h1 {
 }
 
 article h2 {
-     font-size: 16px;
+     font-size: 20px;
     color:#707070;
     font-family: helvetica, arial, sans-serif;
     line-height: 22px;
     padding-bottom: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 article img {
@@ -150,4 +158,107 @@ footer {
     background-color: #8d7693;
     color: #dddddd;
     padding-left: 2%;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    * {
+    box-sizing: border-box;
+      margin: 0px;
+    padding: 0px;
+    }
+
+    header {
+        float: none;
+        height: 375px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #social {
+    float: none;
+    padding-left: 50px;
+    }
+    
+    #social p{
+    float: none;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    visibility:hidden;
+    }
+    
+    #social img{
+        align-content:center;
+        width: 30px;
+        clear: both;
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+    
+    #logo {
+        margin: 0;
+        text-align:center;
+    }
+    
+    #logo img{
+        clear: both;
+     width: 100%;
+        padding: 10px 20px;
+    }
+    
+    #about img {
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    
+    body { 
+        margin: 0%;
+        padding: 0px;
+    }    
+    
+    header nav {
+        height: 0px;
+        padding: 0;
+        margin: 15px 30px 0 30px;
+        
+        
+}
+
+nav a {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    text-transform:uppercase;
+    background-color: #8d7693;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: #FFF0F5;
+        text-decoration: underline;
+}
+        
+ article h1, h2 {
+            text-align: center;
+            margin-top: 0px;
+            padding: 10px 0 15px 0;
+        line-height: 30px;
+    }
+    
+        p {
+        font-size: 12px;
+        padding: 5px;
+    }
+    
 }
