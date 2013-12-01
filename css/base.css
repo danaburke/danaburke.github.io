@@ -38,7 +38,7 @@ header h1 {
 
 #social img{
     width: 25px;
-    margin: -6px 0 0 0px;
+    margin: -6px -5px;
 }
 
 header nav {
@@ -114,17 +114,26 @@ padding-right: 40px;
 padding-bottom: 2%;
 }
 
-#contact img{
-    width: 550px;
-    padding-bottom: 60px;
-    padding-right: 80px;
+#contact p {
+padding-top:10px;
+ float: none;
+ clear: both;
+ text-align: left;
+align-content: center;
+max-width: 60%;
+margin: 0 20% 0 20%;
 }
 
-#contact {
-padding-top: 20px;
-}
-
+#clips {
+    float: none;
+     clear: both;
+     text-align: center;
+    align-content: center;
+    }
+    
 #clips img{
+    float: none;
+    clear: both;
 width: 25%;
 margin-bottom: 30px;
 margin-right: 40px;
@@ -134,20 +143,49 @@ border-style:solid;
 border-color: #000000; 
 }
 
+#photography {
+    float: none;
+     clear: both;
+     text-align: center;
+    align-content: center;
+    }
+
 #photography img{
-    width: 64%;
+    float: none;
+    clear: both;
+    width:90%;
+    max-width: 600px;
     margin-top: 0;
-    margin-right: 18%;
-    margin-bottom: 40px;
-    margin-left: 18%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-left: 5%;
 }
 
+#photography p{
+    color: #aaaaaa;
+    line-height: 16px;
+    float: none;
+    clear: both;
+    margin: 0px 10% 50px 10%;
+}
+
+#design {
+    float: none;
+     clear: both;
+     text-align: center;
+    align-content: center;
+    }
+
 #design img {
-    width: 40%;
-     margin-top: 0;
-    margin-right: 30%;
-    margin-bottom: 40px;
-    margin-left: 30%;
+    float: none;
+    clear: both;
+    align-content: center;
+width: 20%;
+margin: 15px 5% 25px 5%;
+    
+border: 2px;
+border-style:solid;
+border-color: #000000; 
 }
 
 footer {
@@ -174,7 +212,6 @@ footer a:hover {
 
 #bounce a{
     display:none;
-    visibility: none;
      line-height: 0px;
       margin-top: 0px;
     text-indent: -10000px;
@@ -203,7 +240,7 @@ footer a:hover {
     #social {
         text-align:center;
     float: none;
-    padding-left: 12%;
+    margin-left: 10%;
     }
     
     #social p{
@@ -219,7 +256,7 @@ footer a:hover {
         width: 30px;
         clear: both;
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 25px -10px 0 0;
     }
     
     #logo {
@@ -317,9 +354,17 @@ p {
     width: 100%;
     margin-top: 0;
     margin-right: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     margin-left: 0px;
 }
+    
+    #photography p{
+    color: #aaaaaa;
+    line-height: 16px;
+    float: none;
+    clear: both;
+     margin: 0 10% 50px 10%;
+    }
 
     #design {
         float: none;
@@ -357,7 +402,6 @@ footer {
     
 footer a{
         display:none;
-    visibility: none;
      line-height: 0px;
       margin-top: 0px;
     text-indent: -10000px;
