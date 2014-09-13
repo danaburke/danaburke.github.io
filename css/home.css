@@ -2,62 +2,44 @@
     box-sizing: border-box;
       margin: 0;
     padding: 0;
+        text-align:center;
 }
 
 
 header {
     background-color: #45304b;
     color: #ffffff;
-    height: 200px;
+    height: 0px;
     padding-top: 100px;
 }
 
-header h1 {
-        line-height: 0px;
-      margin-bottom: 0px;
+#logo {
+    height: 200px;
+    padding: 0px; /* TRouBLe */
 }
 
-#logo {
-    height: 300px;
-    margin: 0 0 10px 0;
-    padding: 200px 20% 400px 20%; /* TRouBLe */
+#logo img {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 20%; /* TRouBLe */
 }
  
 #social {
-    float: right;
-    margin-right: 8%;
+    width: 100%;
+    margin: 250px 0 0 0; /* TRouBLe */
 }
 
-#social p{
-    font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
-    padding: 15px 0 0 0px;
-    margin: 32px 20px -20px -60px;
+#social p {
+    width:100%;
+    margin: 0; /* TRouBLe */
 }
 
 #social img{
-    width: 45px;
-    margin: -6px -5px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-header nav {
-    clear: both;
-}
-
-header a {
-    color: #ffffff;
-    margin-right: 25px;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: #FFF0F5;
-    text-decoration: underline;
-}
-
-header a:active {
-    text-decoration: underline;
-}
 
 body {
     font-size: 12px;
@@ -66,220 +48,35 @@ body {
 
 p {
     font-family: helvetica, arial, sans-serif;
-    line-height: 22px;
-    margin-bottom: 12px;
-}
-
-article {
     clear: both;
-    margin: 5% 8% 2% 8%;
+    margin: 100px 0;
+    color: #ffffff;
+    font-size: 26px;
+    text-transform:uppercase;
 }
 
-article h1 {
-     font-size: 24px;
-    color:#4D067D;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 22px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-article h2 {
-     font-size: 18px;
-    color:#707070;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 22px;
-    margin-bottom: 20px;
-    text-align:center;
-}
-
-article h3 {
-     font-size: 16px;
-    color:#000000;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 22px;
-    margin-bottom: 20px;
-
-}
-
-article h4 {
-     font-size: 14px;
-    color:#707070;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 22px;
-    margin-bottom: 5px;
-
-}
 
 article img {
     border: 0px solid #ffffff;
-    padding-right: 0px;
-    float: left;
 }
 
-#about img{
-padding-right: 40px;
-padding-bottom: 2%;
-}
 
-#ebay img{
-max-width: 400px;
-padding: 0 50px 30px 0px;
-}
-
-#korrie img{
-    clear: both;
-    float: right;
-    max-width: 400px;
-padding: 0 0px 0px 50px;
-}
- 
-#korrie p{
-    clear: both;
-    float: right;
-      font-size: 10px;
-    color:#707070;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 12px;
-    padding: 0 0 10px 100px;
-}
-
-#contact p {
-padding-top:10px;
- float: none;
- clear: both;
- text-align: left;
-align-content: center;
-max-width: 60%;
-margin: 0 20% 0 20%;
-}
-
-#clips {
-    float: none;
-     clear: both;
-     text-align: center;
-    align-content: center;
-    }
-    
-#clips img{
-    float: none;
-    clear: both;
-width: 25%;
-margin-bottom: 30px;
-margin-right: 40px;
-    margin-left: 30px;
-    border: 2px;
-border-style:solid;
-border-color: #000000; 
-}
-
-#photography {
-    float: none;
-     clear: both;
-     text-align: center;
-    align-content: center;
-    }
-
-#photography img{
-    float: none;
-    clear: both;
-    width:90%;
-    max-width: 600px;
-    margin-top: 0;
-    margin-right: 5%;
-    margin-bottom: 0px;
-    margin-left: 5%;
-}
-
-#photography p{
-    color: #aaaaaa;
-    line-height: 16px;
-    float: none;
-    clear: both;
-    margin: 0px 10% 50px 10%;
-}
-
-#design {
-    float: none;
-     clear: both;
-     text-align: center;
-    align-content: center;
-    }
-
-#design img {
-    float: none;
-    clear: both;
-    align-content: center;
-width: 20%;
-margin: 15px 5% 25px 5%;
-    
-border: 2px;
-border-style:solid;
-border-color: #000000; 
-}
-
-#video {
-    float: none;
-    text-align: center;
-    width: 100%;
-    max-width: 800px;
-    margin-left:auto;
-    margin-right: auto;
-    height: auto;
-    margin-bottom: 30px;
-    margin-top: 15px;
-    }
-
-.video-wrapper {
-	width: 600px;
-	max-width: 100%;
-}
-
-.video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-}
-
-.video-container iframe,  
-.video-container object,  
-.video-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-#tips {
-    background: #FFF0F5;
-    padding: 40px;
-    border-radius: 30px;
-    margin-bottom: 40px;
-}
-
-footer {
-    clear: both;
-    margin-bottom: -16px;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 11px;
-    background-color: #8d7693;
-    color: #dddddd;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-footer a {
+article a {
     color: #ffffff;
-    float: right;
-    padding-right: 20px;
     text-decoration: none;
 }
 
-footer a:hover {
+article a:hover {
+    color: #FFF0F5;
     text-decoration: underline;
+}
+
+article a:active {
+    text-decoration: underline;
+}
+
+
 }
 
 #bounce a{
@@ -304,7 +101,7 @@ footer a:hover {
 
     header {
         float: none;
-        height: 375px;
+        height: 75px;
         padding: 0px;
         margin: 0px;
     }
@@ -312,7 +109,7 @@ footer a:hover {
     #social {
         text-align:center;
     float: none;
-    margin-left: 10%;
+    margin-left: 0%;
     }
     
     #social p{
@@ -320,26 +117,24 @@ footer a:hover {
     padding: 0;
     margin: 0;
     line-height: 0;
-    visibility:hidden;
     }
     
     #social img{
-        align-content:center;
-        width: 30px;
+        width: 50px;
         clear: both;
         padding: 0;
-        margin: 25px -10px 0 0;
+        margin: 0 10px;
     }
     
     #logo {
         margin: 0;
         text-align:center;
+        height: 100px;
     }
     
     #logo img{
-        clear: both;
-     width: 100%;
-        padding: 5px 20px 10px 20px;
+        height: 70px;
+        padding: 0px 0% 0px 0%;
     }
     
     #about img {
