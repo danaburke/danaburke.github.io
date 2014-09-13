@@ -8,13 +8,10 @@
 
 header {
     background-color: #45304b;
-    color: #ffffff;
-    height: 0px;
     padding-top: 100px;
 }
 
 #logo {
-    height: 200px;
     padding: 0px; /* TRouBLe */
 }
 
@@ -25,8 +22,9 @@ header {
 }
  
 #social {
+    float: both;
     width: 100%;
-    margin: 250px 0 0 0; /* TRouBLe */
+    margin: 60px 0 0 0; /* TRouBLe */
 }
 
 #social p {
